@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescue Ranger</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(/background.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        .img-one {
+            padding: 20px;
+            background: rgba(40, 92, 203, 0.2); /* White with opacity */
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+            display: inline-block;
+            max-width: 800px;
+            margin: auto;
+        }
+        .img-one h1 {
+            color: #ff6f61; /* Warm color for heading */
+            font-size: 36px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .img-one img {
+            width: 60%; 
+            max-width: 400px; 
+            height: auto; 
+            cursor: pointer; 
+            border: 3px solid #ff6f61; 
+            border-radius: 15px; 
+            transition: transform 0.3s ease; 
+        }
+        .img-one img:hover {
+            transform: scale(1.05); 
+        }
+        .Home {
+            margin-top: 30px;
+        }
+        .Home a {
+            text-decoration: none;
+            color: #ff6f61; 
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .Home a:hover {
+            text-decoration: underline;
+            color: #f85f54; 
+        }
+        .quotes {
+            margin-top: 40px;
+            font-style: italic;
+            color: #f7f30a;
+        }
+        .quotes h2 {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: normal;
+        }
+        .quotes h2::before, .quotes h2::after {
+            content: '“';
+            font-size: 30px;
+            color: #ff6f61;
+        }
+        .quotes h2::after {
+            content: '”';
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img-one">
+            <h1>Welcome to Rescue Ranger</h1>
+            <a href="home.html">
+                <img src="logo.jpg" alt="logo" />
+            </a>
+            <div class="Home">
+                <p>Click on the icon to move to Rescue Rangers</p>
+            </div>
+            <div class="quotes">
+                <h2>Disaster risk reduction is about people’s lives and livelihoods, and how we secure them against the threats they face.</h2>
+                <h2>Investing in disaster risk reduction is not only about saving lives but also about safeguarding development gains and ensuring sustainability.</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
